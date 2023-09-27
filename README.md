@@ -17,7 +17,7 @@ The Apache Kafka - Wikimedia Recent Changes project is built on a robust archite
 In summary, this project's architecture is combination of Apache Kafka, supporting technologies, and containerization. It aims to provide real-time data processing and analysis capabilities for Wikimedia recent changes, making it a powerful tool for monitoring and gaining insights into the dynamic world of Wikimedia content updates.
 
 ## Software Architecture
-
+Example of the software architecture of the project (simplified).
 ![WikimediaKafka diagram.svg](./_resources/architecture.svg)
 
 
