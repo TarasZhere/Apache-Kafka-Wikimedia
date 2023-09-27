@@ -1,3 +1,19 @@
+# Table of Content
+- [Apache Kafka - Wikimedia Recent Changes](#apache-kafka---wikimedia-recent-changesz)
+  - [About the project](#about-the-project)
+  - [Software Architecture](#software-architecture)
+- [Project Output Samples](#project-output-samples)
+  - [Topic Dashboard](#topic-dashboard)
+  - [Brokers Dashboard](#brokers-dashboard)
+  - [Topic Data Visualization](#topic-data-visualization)
+  - [Consumer Group](#consumer-group)
+  - [Topic Partitions and Replication Factor](#topic-partitions-and-replication-factor)
+- [Start Kafka](#start-kafka)
+    - [Requirements](#requirements)
+  - [Start via the `start.sh` script](#start-via-the-startsh-script)
+- [Start Producer](#start-producer)
+- [Start Consumer](#start-consumer)
+
 # Apache Kafka - Wikimedia Recent Changes
 Welcome to the README.md for the Apache Kafka - Wikimedia Recent Changes project! This repository serves as a comprehensive guide to utilizing Apache Kafka to harness the power of real-time data streaming for monitoring and analyzing recent changes to Wikimedia content. This README.md will provide you with the essential information to get started and make the most of this integration. Explore how Apache Kafka empowers tracks Wikimedia changes. The data is collected from [this API](https://stream.wikimedia.org/v2/stream/recentchange)*(https://stream.wikimedia.org/v2/stream/recentchange)*
 
@@ -33,17 +49,17 @@ Following some images about the project.
 ## Topic Data Visualization
 ![Screenshot 2023-09-26 at 5.27.10 PM.png](./_resources/Screenshot%202023-09-26%20at%205.27.10%20PM.png)
 
-## Consume Group
+## Consumer Group
 ![Screenshot 2023-09-26 at 5.29.02 PM.png](./_resources/Screenshot%202023-09-26%20at%205.29.02%20PM.png)
 
-## Topic Partitions and Replication factor
+## Topic Partitions and Replication Factor
 ![Screenshot 2023-09-26 at 5.30.47 PM.png](./_resources/Screenshot%202023-09-26%20at%205.30.47%20PM.png)
 
 
 
 # Start Kafka
 The consumer and producer are both writen in Java. After you cloned the repo you can chose to use `start.sh`.
-⚠️ Make sure docker is running. ⚠️
+⚠️ **Make sure docker is running.** ⚠️
 
 ### Requirements
 - [x] Docker
