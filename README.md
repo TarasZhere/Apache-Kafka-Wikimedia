@@ -1,5 +1,5 @@
 # Apache Kafka - Wikimedia Recent Changes
-Welcome to the README.md for the Apache Kafka - Wikimedia Recent Changes project! This repository serves as a comprehensive guide to utilizing Apache Kafka to harness the power of real-time data streaming for monitoring and analyzing recent changes to Wikimedia content. This README.md will provide you with the essential information to get started and make the most of this integration. Explore how Apache Kafka empowers you to stay on top of Wikimedia updates, unlocking new possibilities for research, insights, and real-time decision-making.
+Welcome to the README.md for the Apache Kafka - Wikimedia Recent Changes project! This repository serves as a comprehensive guide to utilizing Apache Kafka to harness the power of real-time data streaming for monitoring and analyzing recent changes to Wikimedia content. This README.md will provide you with the essential information to get started and make the most of this integration. Explore how Apache Kafka empowers tracks Wikimedia changes. The data is collected from [this API](https://stream.wikimedia.org/v2/stream/recentchange)*(https://stream.wikimedia.org/v2/stream/recentchange)*
 
 ## About the project
 
@@ -37,7 +37,8 @@ Following some images about the project.
 
 
 # Start Kafka
-The consumer and producer are both writen in Java. After you cloned the repo you can chose to use `start.sh`.
+The consumer and producer are both writen in Java. After you cloned the repo you can chose to use `start.sh`. 
+⚠️ Make sure docker is running. ⚠️
 
 ### Requirements
 - [x] Docker
