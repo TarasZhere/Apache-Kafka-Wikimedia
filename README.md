@@ -18,7 +18,7 @@ In summary, this project's architecture is combination of Apache Kafka, supporti
 
 ## Software Architecture
 
-![WikimediaKafka diagram.svg](./_resources/arch-diagram.svg)
+![WikimediaKafka diagram.svg](./_resources/architecture.svg)
 
 
 # Project Output Samples
