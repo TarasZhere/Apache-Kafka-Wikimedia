@@ -16,6 +16,11 @@ The Apache Kafka - Wikimedia Recent Changes project is built on a robust archite
 
 In summary, this project's architecture is combination of Apache Kafka, supporting technologies, and containerization. It aims to provide real-time data processing and analysis capabilities for Wikimedia recent changes, making it a powerful tool for monitoring and gaining insights into the dynamic world of Wikimedia content updates.
 
+## Software Architecture
+
+![WikimediaKafka diagram.svg](./_resources/arch-diagram.svg)
+
+
 # Project Output Samples
 Following some images about the project.
 
@@ -37,7 +42,7 @@ Following some images about the project.
 
 
 # Start Kafka
-The consumer and producer are both writen in Java. After you cloned the repo you can chose to use `start.sh`. 
+The consumer and producer are both writen in Java. After you cloned the repo you can chose to use `start.sh`.
 ⚠️ Make sure docker is running. ⚠️
 
 ### Requirements
