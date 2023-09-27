@@ -1,5 +1,5 @@
 # Apache Kafka - Wikimedia Recent Changes
-Welcome to the README.md for the Apache Kafka - Wikimedia Recent Changes project! In an age where real-time information is paramount, staying up-to-date with the latest developments is crucial. This repository serves as a comprehensive guide to utilizing Apache Kafka to harness the power of real-time data streaming for monitoring and analyzing recent changes to Wikimedia content. Whether you are a developer, data enthusiast, or a Wikimedia aficionado, this README.md will provide you with the essential information to get started and make the most of this integration. Explore how Apache Kafka empowers you to stay on top of Wikimedia updates, unlocking new possibilities for research, insights, and real-time decision-making.
+Welcome to the README.md for the Apache Kafka - Wikimedia Recent Changes project! This repository serves as a comprehensive guide to utilizing Apache Kafka to harness the power of real-time data streaming for monitoring and analyzing recent changes to Wikimedia content. This README.md will provide you with the essential information to get started and make the most of this integration. Explore how Apache Kafka empowers you to stay on top of Wikimedia updates, unlocking new possibilities for research, insights, and real-time decision-making.
 
 ## About the project
 
@@ -14,9 +14,9 @@ The Apache Kafka - Wikimedia Recent Changes project is built on a robust archite
 - **Kafka Schema Registry**: Kafka Schema Registry is integrated into the system to manage data schemas. This ensures that data consistency and compatibility are maintained as data flows between producers and consumers.
 - **Docker Compose**: The platforms (Kafka, OpenSearch, Conduktor) is containerized and deployed using `docker compose up -d`, with a `docker-compose.yml` file available within the `./kafka-docker/` directory. This facilitates easy deployment and scalability of the Kafka cluster.
 
-In summary, this project's architecture is a sophisticated and well-orchestrated combination of Apache Kafka, supporting technologies, and containerization. It aims to provide real-time data processing and analysis capabilities for Wikimedia recent changes, making it a powerful tool for monitoring and gaining insights into the dynamic world of Wikimedia content updates.
+In summary, this project's architecture is combination of Apache Kafka, supporting technologies, and containerization. It aims to provide real-time data processing and analysis capabilities for Wikimedia recent changes, making it a powerful tool for monitoring and gaining insights into the dynamic world of Wikimedia content updates.
 
-# Project output
+# Project Output Samples
 Following some images about the project.
 
 ## Topic Dashboard
@@ -43,6 +43,7 @@ The consumer and producer are both writen in Java. After you cloned the repo you
 - [x] Docker
 - [x] Java
 - [x] Intellij
+- [x] Gradle
 
 ## Start via the `start.sh` script
 From the terminal just run the command `bash start.sh`.
@@ -51,7 +52,7 @@ The script should also open http://localhost:8080/ to view the **Conduktor Platf
 
 ⚠️ **This command should be able to also create the `wikimedia.recentchange` topic.** ⚠️
 
-If creating the topic fails it should still create automatically when the consumer producer begins producing messages. 
+If creating the topic fails it should still create automatically when the consumer producer begins producing messages.
 
 # Start Producer
 
